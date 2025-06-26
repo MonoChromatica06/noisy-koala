@@ -84,7 +84,7 @@ class ImageEncryptorApp:
             "but creates a cool visual representation of encryption!"
         )
         tk.Label(self.encrypt_frame, text=explanation, justify=tk.LEFT).grid(row=3, column=1, padx=10)
-    
+    # pass: d4u@0ni0n
     def setup_decrypt_ui(self):
 
         tk.Label(self.decrypt_frame, text="Select Encrypted Image:").grid(row=0, column=0, padx=5, pady=5, sticky="w")
